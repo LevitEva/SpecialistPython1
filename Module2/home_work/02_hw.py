@@ -8,3 +8,12 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+n = int(input("пасется:"))
+if n == 1:
+    print("корова")
+elif n == 2:
+    print("коровы")
+if n == 5 or n == 125:
+    print("коров")
+else:
+    print("коровы")

@@ -4,3 +4,7 @@
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
 
 # TODO: your code here
+z=1
+for el in fruits:
+    print(z," ",el)
+    z+=1

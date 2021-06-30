@@ -2,3 +2,7 @@
 # Вывести на экран сумму всех положительных элементов кратных двум.
 
 # TODO: your code here
+my_list=(8,6,10,98)
+if el%2 == 0 and el>0 :
+    summa=summa+el
+    print(summa)

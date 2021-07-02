@@ -8,3 +8,10 @@
 def days_in_year(num_year):
     pass
 
+
+def days_in_year(num_year):
+i = int(input())
+if i % 4 != 0 and i % 100 != 0 and i % 400 != 0:
+    print("стандартный год")
+else:
+    print("високосный год")
